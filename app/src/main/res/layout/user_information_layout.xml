@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/trans_black_dialog">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@color/orginal_white"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="none">
+
+            <android.support.v7.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <android.support.v7.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:id="@+id/tv_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/colorPrimary"
+                        android:drawableLeft="@mipmap/icon_user_dialog"
+                        android:drawablePadding="5dp"
+                        android:gravity="center_vertical"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/tv_level"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:autoLink="email"
+                        android:backgroundTint="@color/colorPrimary"
+                        android:drawableLeft="@mipmap/icon_user_dialog"
+                        android:drawablePadding="5dp"
+                        android:gravity="center_vertical"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/tv_designation"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:backgroundTint="@color/colorPrimary"
+                        android:drawableLeft="@mipmap/icon_user_dialog"
+                        android:drawablePadding="5dp"
+                        android:gravity="center_vertical"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/tv_email"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:autoLink="email"
+                        android:backgroundTint="@color/colorPrimary"
+                        android:drawableLeft="@mipmap/icon_mail_dialog"
+                        android:drawablePadding="5dp"
+                        android:gravity="center_vertical"
+                        android:textSize="15sp" />
+
+
+                    <TextView
+                        android:id="@+id/tv_call"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:autoLink="phone"
+                        android:backgroundTint="@color/colorPrimary"
+                        android:drawableLeft="@mipmap/icon_call_dialog"
+                        android:drawablePadding="5dp"
+                        android:gravity="center_vertical"
+                        android:textSize="15sp" />
+
+
+                    <!--<TextView-->
+                    <!--android:id="@+id/tv_level"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginTop="10dp"-->
+                    <!--android:drawablePadding="5dp"-->
+                    <!--android:drawableLeft="@mipmap/icon_user_dialog"-->
+                    <!--android:backgroundTint="@color/colorPrimary"-->
+                    <!--android:gravity="center_vertical" />-->
+
+
+                </android.support.v7.widget.LinearLayoutCompat>
+
+
+                <android.support.v7.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/btn_cancel"
+                        android:layout_width="match_parent"
+                        android:layout_height="35dp"
+                        android:background="@drawable/button_selector_blue_whiteshade"
+                        android:text="@string/close"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="@color/white"
+                        android:textSize="15dp" />
+
+
+                </android.support.v7.widget.LinearLayoutCompat>
+
+
+            </android.support.v7.widget.LinearLayoutCompat>
+        </ScrollView>
+    </LinearLayout>
+    <ImageView
+    android:id="@+id/delete_iv"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentRight="true"
+    android:layout_marginTop="5dp"
+    android:src="@mipmap/delete_orange"/>
+</RelativeLayout>

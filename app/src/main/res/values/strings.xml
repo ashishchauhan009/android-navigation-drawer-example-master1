@@ -1,0 +1,407 @@
+<resources>
+
+    <string name="app_name">CleanMoney</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="drawer_header">Home</string>
+    <string name="drawer_mis">MIS</string>
+    <string name="drawer_logout">Logout</string>
+    <string name="drawer_status">Status</string>
+    <string name="clear">Clear</string>
+    <string name="previous_response">Previous Response:</string>
+    <string name="current_response">Current Response:</string>
+    <string name="drawer_pmgky">PMGKY</string>
+    <string name="drawer_evarification">E-Verification of Cash Deposits</string>
+    <string name="drawer_activities">Clean Money Activities</string>
+    <string name="drawer_participants">Participants</string>
+    <string name="drawer_resources">Resources</string>
+    <string name="drawer_quickfacts">Quick Facts</string>
+    <string name="drawer_socialmediacorner">Social Media Corner</string>
+    <string name="drawer_newsupdates">News and Updates</string>
+    <string name="drawer_helpdesk">Helpdesk</string>
+    <string name="drawer_loginitduser">Login-ITD User</string>
+    <string name="loading">Loading...</string>
+    <string name="yes">Yes</string>
+    <string name="cancel">Cancel</string>
+    <string name="drawer_login">Login</string>
+    <string name="drawer_operationcleanmoney">Operation Clean Money</string>
+    <string name="drawer_mytask">My Task</string>
+    <string name="drawer_newtask">New Task</string>
+    <string name="drawer_pendingtask">Pending Task</string>
+    <string name="drawer_comptask">Completed Task</string>
+    <string name="drawer_closedtask">Closed Task</string>
+    <string name="drawer_readyforupdate">Ready For Update</string>
+
+    <string name="drawer_closed">Closed</string>
+    <string name="drawer_myassigtask">My Assigned Task</string>
+    <string name="drawer_createtask">Create Task</string>
+    <string name="drawer_training">Training</string>
+    <string name="drawer_aboutus">About Us</string>
+    <string name="drawer_feedback">Feedback</string>
+    <string name="drawer_termscondition">Term &amp; Conditions</string>
+    <string name="drawer_contactus">Contact Us</string>
+    <string name="drawer_myaccounts">My Accounts</string>
+    <string name="drawer_news">News</string>
+    <string name="taskdesc">Description:</string>
+    <string name="fav_task">FAVOURITE CONTACTS</string>
+    <string name="title">Title*</string>
+    <string name="heading">Heading</string>
+    <string name="desc">Description*</string>
+    <string name="chooseimage">Choose Image</string>
+    <string name="url">Url</string>
+    <string name="submitt">Submit</string>
+    <string name="author">Author</string>
+    <string name="drawer_favtask">Favourite</string>
+    <string name="drawer_directory">Directory</string>
+    <string name="drawer_success_stories">Success Stories</string>
+    <string name="drawer_outreach_stories">Outreach</string>
+
+    <string name="drawer_add_stories">Add Stories</string>
+    <string name="drawer_edit_stories">Edit Stories</string>
+    <string name="drawer_engage">Engage</string>
+    <string name="drawer_isupport">I Support</string>
+    <string name="clear_date">Clear Date</string>
+    <string name="drawer_help">Help</string>
+    <string name="no_favtask">No Favourite Contacts</string>
+    <string name="details">DETAILS</string>
+    <string name="action_settings">Settings</string>
+    <string name="enterpanno">Enter Your PAN</string>
+    <string name="valid_email">Please enter valid email id</string>
+    <string name="sccessfullogin">Successfully login</string>
+    <string name="valid_email_password">Please enter valid email and password</string>
+    <string name="choosefile">Please choose a file</string>
+    <string name="choosedate">Please choose date</string>
+    <string name="select_date">Select date</string>
+    <string name="reassign_content">Task has been Re-Assigned \nPlease refer your mail for more details</string>
+
+    <string name="password_notmatch">Your password and confirmation password do not match.</string>
+    <string name="fill_password">Please fill password</string>
+    <string name="valid_emailotp">Please enter valid email and OTP</string>
+    <string name="went_wrong">Something went wrong please resend OTP</string>
+    <string name="enterotp">Enter OTP</string>
+    <string name="confirmation_dialog">Confirmation Dialog</string>
+    <string name="otp_send_validation">If you do not receive OTP with in 5 minutes, you may request for another OTP by clicking on the resend OTP Button</string>
+    <string name="do_you_want_to_make_call">Do you want to make call?</string>
+    <string name="resend_otp">Resend OTP</string>
+    <string name="add_to_fav">Add to Favourite</string>
+    <string name="participatess">PARTICIPANTS</string>
+    <string name="engage">Engage</string>
+    <string name="strpeerknow">LET YOUR PEER KNOW</string>
+    <string name="strcontributed">  HAVE YOU CONTRIBUTED ?</string>
+    <string name="isupportheader">I Support</string>
+    <string name="head1">I promise that</string>
+    <string name="head2">I’ll file my return of Income on time</string>
+    <string name="head3">I’ll show correct income in my return of income</string>
+    <string name="head4">I’ll pay all due taxes on time</string>
+    <string name="upload_images">You can upload max 5 images</string>
+    <string name="officer_name">Officer Name*</string>
+    <string name="designation">Designation*</string>
+    <string name="date_of_meetting">Date Of Meeting*</string>
+    <string name="venue">Venue Detail*</string>
+    <string name="target_audience">Target Audience</string>
+    <string name="i_support">TAKE A PLEDGE</string>
+    <string name="engaged_join">Have Already\nEngaged with\nOperation Clean Money</string>
+    <string name="support_join">Have Already\nSupported\nOperation Clean Money</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- TODO: Static text for clean money removable -->
+    <string name="feedback_content">Thank you for visiting Operation Clean Money and becoming a stackholder in the </string>
+    <string name="governance">governance</string>
+
+
+    <string name="newscontent_details">The government has warned banks of “de-authorisation” of branches if they
+        refuse to accept taxes under the amnesty scheme PMGKY, which ends on March 31. The Finance Ministry,
+        in a communication to heads of banks which are authorised to accept deposits under the Pradhan Mantri
+        Garib Kalyan Yojana (PMGKY), asked them to issue directions to all branches for making necessary changes
+        in their system/software to accept the tax.</string>
+    <string name="newscontent_details_bottom">“Non-compliance of this order may be viewed seriously and may lead to
+        de-authorisation of that branch in case of refusalto accept taxes,” the ministry said.</string>
+    <string name="newscontent_details_bottom2">Post demonetisation, the government came out with PMGKY under which people holding unaccounted
+        cash can deposit them in bank accounts till March 31 by paying 50 per cent tax plus penalty.
+        A quarter of the total sum will have to be parked in a non-interest bearing deposit for four years.
+        The scheme opened on December 1.
+    </string>
+    <string name="newsdetails_header">Government warns banks over non-acceptance of PMGKY tax</string>
+
+    <string name="about_us">Operation Clean Money was launched on 31st January, 2017 by the Income Tax department for
+        e-verification of large deposits made between the period of 9th November and 30th December, 2016.</string>
+    <string name="about_us1"> Income tax department sent E-mail and SMS to approximately 18 lakh taxpayers who made
+        suspicious deposits over Rs 5 lakh during the 50-day demonetisation period, as part of the initiative. The
+        operation is primarily aimed to verify cash transaction status (exchange/savings of banned notes) of tax payers
+        during the demonetisation period.</string>
+    <string name="about_us2">More than 7 Lakh people logged online and acknowledged to have made such deposits. The biggest challenge
+        the Income Tax Department is facing is that a large number of people are not registered on the income tax portal.</string>
+    <string name="about_us3">Data analytics will be used to select cases for verification, based on approved risk criteria. If the case is
+        selected for verification, request for additional information and its response will also be communicated
+        electronically. The information on the online portal will be dynamic getting updated on receipt of new
+         information, response and data analytics. The response of taxpayer will be assessed against available
+        information. In case explanation of source of cash is found justified, the verification will be closed
+        without any need to visit Income Tax Office.</string>
+    <string name="about_us4"> The verification will also be closed if the cash deposit is declared under Pradhan Mantri Garib Kalyan Yojna(PMGKY).
+        It is an amnesty scheme for the defaulters to turn black money into white by declaring their unaccounted money.
+        The last date to declare unaccounted money is set as 31st March. However, black money can only be converted to
+        white after paying tax, surcharge, and penalty of up to 49.90percent of the total amount. Plus, the 25 percent of the money
+        left after the deductions will be locked up in the bank interest-free for the next 4 years.</string>
+    <string name="about_us5">Non-disclosure of the undisclosed income before 31st March, 2017 will attract tax, surcharge, and penalty
+        amounting to 77.25 percent along with prosecution.</string>
+    <string name="about_us6">The money collected under the Pradhan Mantri Garib Kalyan Yojna will be used to contribute to the cause of
+        underprivileged of the country. The decision to give another opportunity to declare undisclosed income is observed as an important
+        step to bridge the gap between the rich and the poor of the country.</string>
+
+    <string name="contact_us1">CEO MyGov/Web information Manager</string>
+    <string name="contact_us2">MyGov Cell</string>
+    <string name="contact_us4">3rd Floor, Room no-3015</string>
+    <string name="contact_us5">Ministry of Electronics and Information Technology</string>
+    <string name="contact_us6">Load Road New Delhi - 110003</string>
+    <string name="contact_us7">India</string>
+
+
+    <string name="help1">This section attempts to help you easily navigate through the pages of this portal. We strive
+    to provide you a pleasant experience while browsing the portal.Sections of this portal Sections of this website are
+    Dashboard, Blog, Talk, Feedback, FAQ, About Us, Contact Us, Sitemap, Terms &amp; Conditions.</string>
+    <string name="helpheading1">Viewing information in various file formats</string>
+
+    <string name="help2">To view the information properly, your browser need to have the required plug-ins. All the
+    information provided by this website is available in PDF, and HTML format. In case, your browser doesn’t have the
+    required plug-ins or softwares, you can download it for free from the internet.</string>
+    <string name="helpheading2">Accessibility Help</string>
+
+    <string name="help3">The accessibility option provided by this website allows you to increase the text size and
+    changing the contrast scheme for clear visibility and better readability.</string>
+    <string name="helpheading3">Changing the Text Size</string>
+    <string name="help4">You can change the text to smaller or bigger from its standard size on this portal. You can choose any one of the three options provided:
+                        Small : It displays information in the smallest font size available on the portal.
+                        Medium : It is the standard default font size of the portal.
+                        Large : It displays information in the smallest font size available on the portal.</string>
+
+
+    <!-- terms and conditions-->
+
+    <string name="termscondition1">These terms of use describe your rights and responsibilities as a user of the
+        mygov.in (MyGov).To have a MyGov account, you must accept these terms of use. MyGov, NIC, DeitY and Govt. of India reserve the right to
+        make changes to MyGov and these terms of use at any time. If those changes affect your rights or responsibilities, you
+        will be notified through MyGov.</string>
+    <string name="termscondition2">The following terms of use supersede and replace any terms and conditions you may have previously
+        accepted governing your use of MyGov. The following Terms &amp; Conditions come into effect as soon as you have accepted it
+        and created your MyGov account.</string>
+    <string name="termscondition3">As a user of MyGov you are granted a nonexclusive, nontransferable, revocable, limited license to
+        access and use MyGov and content in accordance with these Terms of Use. Provider may terminate this license at any time for any reason.
+        MyGov designed &amp; hosted by National Informatics Centre, Contents provided by the various Organizations, Departments and Ministries of
+        Government of India.Though all efforts have been made to ensure the accuracy and currency of the content on MyGov, the same should not
+        be construed as a statement of law or used for any legal purposes. In case of any ambiguity or doubts, users are advised to verify/check
+        with the concerned Ministry/Department/Organization and/or other source(s), and to obtain appropriate professional advice.
+        Under no circumstances will the Government Ministry/Department/Organization be liable for any expense, loss or damage including, without
+        limitation, indirect or consequential loss or damage, or any expense, loss or damage whatsoever arising from use, or loss of use, of data,
+        arising out of or in connection with the use of MyGov.</string>
+    <string name="termsconditionheading1">LIMITATION ON USE:</string>
+    <string name="termscondition4">The Content on MyGov is for your personal use only and not for commercial exploitation. You may not decompile,
+        reverse engineer, disassemble, rent, lease, loan, sell, sublicense, or create derivative works from MyGov. Nor may you use any network
+        monitoring or discovery software to determine the site architecture, or extract information about usage, individual identities or users.
+        You will not use any robot, spider, other automatic software or device, or manual process to monitor or copy MyGov without Provider’s
+        prior written permission. You will not copy, modify, reproduce, republish, distribute, display, or transmit for commercial, non-profit
+        or public purposes all or any portion of MyGov, except to the extent permitted by the copyright policy of this terms of use.
+        Any unauthorized use of MyGov is prohibited. The use of any software (e.g. bots, scraper tools) or other automatic devices to access,
+        monitor or copy the website pages is prohibited unless expressly authorized by the MyGov in writing.</string>
+    <string name="termsconditionheading2">POLICY WITH REGARD TO YOUR CONTENT:</string>
+
+    <string name="termscondition5">Uploading content or submitting any materials for use on MyGov, you grant (or warrant that the owner of such
+        rights has expressly granted) MyGov a perpetual, worldwide, royalty-free, irrevocable, non-exclusive right and license, with right to
+        sublicense, to use, reproduce, modify, adapt, publish, publicly perform, publicly display, digitally display and digitally perform
+        translate, create derivative works from and distribute such materials or incorporate such materials into any form, medium, or technology
+        now known or later developed throughout the universe. You agree that you shall have no recourse against Provider for any alleged or actual
+        infringement or misappropriation of any proprietary right in your communications to us.</string>
+
+
+    <!--PMGKY-->
+    <string name="aboutpmgky1">Pradhan Mantri Garib Kalyan Yojna, 2016 (PMGKY) is an amnesty scheme launched in December 2016 by the Government of India.
+        This scheme provides one more opportunity to declare unaccounted money till 31st March 2017. The Pradhan Mantri Kalyan Yojna can only be availed
+        to declare income in the form of cash or bank deposits in Indian Bank accounts and not in the form of assets/stocks/overseas accounts.</string>
+    <string name="aboutpmgky2" translatable="false">Anyone who declares his/her undisclosed income by 31st March 2017 under the Pradhan Mantri Garib Kalyan Yojna, will have to
+        pay tax, surcharge, and penalty of up to 49.90% of the total amount. The 25% of the rest money left after the deductions will be locked up in the
+        bank interest-free for the next 4 years. Non-disclosure of the undisclosed income will attract tax, surcharge, and penalty amounting to 77.25% along
+        with prosecution.</string>
+    <string name="aboutpmgky3">The identity of the person declaring undisclosed income under the Pradhan Mantri Garin Kalyan Yojna will be kept confidential
+        and the income declared translatable="false" under the Pradhan Mantri Garib Kalyan Yojna shall not be taxable under the income-tax Act, 1961.</string>
+    <string name="aboutpmgky4">The money collected under the Pradhan Mantri Garib Kalyan Yojna will be used to contribute to the cause of underprivileged of
+        the country. The decision to give another opportunity to declare undisclosed income is observed as an important step to bridge the gap between the
+        rich and the poor of the country.</string>
+    <string name="aboutpmgkyheading1">Forms &amp; Acknowledgement</string>
+    <string name="aboutpmgkyheading2">FAQ</string>
+
+
+    <!-- FAQs pmgky questions and answers-->
+    <string name="aboutpmgkyqus1">What is Pradhan Mantri Garib Kalyan Deposit Scheme (PMGKDS), 2016 ?</string>
+    <string name="aboutpmgkyans1">Pradhan Mantri Garib Kalyan Deposit Scheme (PMGKDS), 2016 is a scheme notified by the Government of India on December 16, 2016 which is applicable
+        to every declarant under the Taxation and Investment Regime for Pradhan Mantri Garib Kalyan Yojana, 2016.</string>
+
+    <string name="aboutpmgkyqus2">Who is eligible to deposit in PMGKS?</string>
+    <string name="aboutpmgkyans2">The deposit under this Scheme shall be made by any person who declares undisclosed income under sub-section (1) of section 199C of the Taxation and
+        Investment Regime for Pradhan Mantri Garib Kalyan Yojana, 2016.</string>
+
+    <string name="aboutpmgkyqus3">In what form will the deposits under this scheme be held?</string>
+    <string name="aboutpmgkyans3">The Deposits shall be held at the credit of the declarant in Bond Ledger Accounts (BLA) maintained with Reserve Bank of India.</string>
+
+    <string name="aboutpmgkyqus4">Which are the authorized agencies where the application and amount of deposit will be accepted?</string>
+    <string name="aboutpmgkyans4">Application and amount for the deposit (in the form of Bond Ledger Account) shall be received by any banking company, other than Co-operative Banks,
+        to which the Banking Regulation Act, 1949 (10 of 1949) applies (Authorised Banks).</string>
+
+    <string name="aboutpmgkyqus5">Where can declarants get the application form?</string>
+    <string name="aboutpmgkyans5">Application for the deposit will be available at branches
+        of Authorised Banks. It is also available in the Reserve Bank of India website.</string>
+
+
+    <string name="nationallevel">PAN Allotment - Taxpayer Status(2016-17)</string>
+    <string name="statelevelheading">Tax Revenues (INR Billions): 2016-2017</string>
+    <string name="stateleveldetail">This is a list of States of India by projected own tax revenues of their governments (excluding the shares from Union tax pool) assessed for
+        the year 2010–15 by the Thirteenth Finance Commission with figures in crore of Indian Rupees. Data for Union territories are not available.</string>
+    <string name="feedback">Thank You for visiting Operation Clean Money and becoming a stakeholder in the governance procedure of the country. We would like
+        to get your valuable feedback on how we can make the governance process better.</string>
+    <string name="drawer_faqs">FAQs</string>
+
+    <string name="task_no">Task No:</string>
+    <string name="respondedby">Responded By:</string>
+    <string name="assigned_on">Assigned On:</string>
+    <string name="assigned_by">Assigned By:</string>
+    <string name="respondedon">Responded On:</string>
+    <string name="assigned_to">Assigned To:</string>
+    <string name="task_completion">Task Completion On:</string>
+    <string name="subject">Subject:</string>
+    <string name="task_completion_date">Task Completion Date:</string>
+    <string name="task_completion_on">Task Completion On:</string>
+    <string name="assign_task">ASSIGNED NEW TASK DEATILS</string>
+    <string name="dashboard">DASHBOARD</string>
+    <string name="inprogress_task">IN PROGRESS TASKS</string>
+    <string name="no_outreachlist">No Outreach Activities</string>
+    <string name="out_reach">OUTREACH ACTIVITIES</string>
+    <string name="closed_task">CLOSED TASKS</string>
+    <string name="message">Message:</string>
+    <string name="completed_task">COMPLETED TASK:</string>
+    <string name="status">Status:</string>
+    <string name="todo_task">TO DO TASK</string>
+    <string name="mis_name">Name</string>
+    <string name="mis_value">Value</string>
+    <string name="new_taskk">New</string>
+    <string name="new_assignmnt">New Assignment</string>
+    <string name="wip"></string>
+    <string name="completed">Completed</string>
+    <string name="pending_task">PENDING TASKS</string>
+    <string name="pending_taskk">Pending</string>
+    <string name="in_progress">In Progress</string>
+
+    <string name="ready_for_update">Ready for update</string>
+    <string name="for_review">For Review</string>
+
+    <string name="titlee">Title:</string>
+    <string name="authorr">Author:</string>
+    <string name="created_on">Created On:</string>
+    <string name="click_view"><u>Read More</u></string>
+    <string name="success_storiess">SUCCESS STORIES</string>
+    <string name="success_story">SUCCESS STORY</string>
+
+    <string-array name="array_name">
+        <item>Select MIS Type</item>
+        <item>E-Verification</item>
+        <!--<item>Array Item Two</item>
+        <item>Array Item Three</item>-->
+    </string-array>
+
+
+    <string name="resToastText"></string>
+    <string name="isupport">I SUPPORT OPERATION CLEAN MONEY</string>
+    <string name="close_task">Closed</string>
+    <string name="task_monitoring">TASK MONITORING</string>
+    <string name="no_task">No New Task</string>
+    <string name="no_pendingtask">No Pending Task</string>
+    <string name="no_desiganationtask">No Record Found</string>
+    <string name="no_completedtask">No Completed Task </string>
+    <string name="no_closedtask">No Closed Task</string>
+    <string name="choosedocpdf">file type must be pdf or doc</string>
+    <string name="submit">Submit Successfully</string>
+    <string name="filter_mis">MIS Filters</string>
+    <string name="filter_mis_type">MIS Type</string>
+    <string name="search">Search</string>
+    <string name="confirmpasswrd">Confirm Password</string>
+    <string name="selectmembers">Select Members</string>
+    <string name="selectsearch">Select Search Option</string>
+    <string name="tagyourself">TAG YOURSELF</string>
+    <string name="drawer_add_outreach">Add Outreach</string>
+    <string name="drawer_edit_outreach">Edit Outreach</string>
+    <string name="wentwrongmsg">Something went wrong...</string>
+    <string name="favourite">Favourite</string>
+    <string name="create_task">Create Task</string>
+    <string name="task_dashboard">TASK DASHBOARD</string>
+    <string name="new_user">NEW USER? GET PASSWORD</string>
+    <string name="create_task_detail">CREATE TASK DETAILS</string>
+    <string name="user_name">Name</string>
+    <string name="user_email">Email</string>
+    <string name="user_call">Call</string>
+    <string name="user_designation">Designation</string>
+    <string name="user_level">Level</string>
+    <string name="close">Close</string>
+    <string name="task">Task</string>
+    <string name="closed">Closed</string>
+    <string name="directory_dash">DIRECTORY</string>
+    <string name="create_task_dash">CREATE TASK</string>
+    <string name="favourite_dash">FAVOURITE</string>
+    <string name="to_do_task">TO DO TASK</string>
+    <string name="task_monitoring_dash">TASK MONITORING</string>
+    <string name="out_reach_dash">OUTREACH ACTIVITIES</string>
+    <string name="success_stories_dash">SUCCESS STORIES</string>
+    <string name="un_fav">Un Favourite</string>
+    <string name="searchby_name">SEARCH BY NAME</string>
+    <string name="searchby_designation">SEARCH BY DESIGNATION</string>
+    <string name="under_development">Functionality under development...</string>
+    <string name="enteritdname">Enter Name of ITD Official</string>
+    <string name="assign_task_to_user">ASSIGN TASK</string>
+    <string name="no_success_stories">No Success Stories</string>
+    <string name="out_reach_activity">OUTREACH ACTIVITY</string>
+    <string name="task_completed_on">Task Completed On</string>
+    <string name="closed_task_details">CLOSED TASK DETAILS</string>
+    <string name="inprogress_details">IN PROGRESS TASK DETAILS</string>
+    <string name="task_for_review">TASKS FOR REVIEW</string>
+    <string name="for_reaview_task_details">FOR REVIEW TASK DETAILS</string>
+    <string name="drawer_search_byname">Search By Name</string>
+    <string name="drawer_designation">Search By Designation</string>
+    <string name="drawer_cleanmoneyparticipants">Clean Money Participants</string>
+    <string name="subdrawer_engage">Engage</string>
+    <string name="subdrawer_isupport">I Support</string>
+    <string name="subdrawer_contribute">Contribute</string>
+    <string name="task_deskboard">Task Dashboard</string>
+    <string name="drawer_outreach_activities">Outreach Activities</string>
+    <string name="no_assigendtask">No Assigned New Task</string>
+    <string name="no_taskinprogress">No Task In Progress</string>
+    <string name="n_taskforreview">No Task For Review</string>
+    <string name="no_assignedclose">No Assigned Closed Task</string>
+    <string name="searchby_deasignation">SEARCH BY DESIGNATION</string>
+    <string name="no_of_participnts">No Of Participents</string>
+    <string name="pincode">Pincode*</string>
+    <string name="activities">Activity Details*</string>
+    <string name="topic">Topic*</string>
+    <string name="create_by">Created By:</string>
+    <string name="prvious_attach">Previous Attachment</string>
+    <string name="current_attach">Current Attachment</string>
+    <string name="response_chain">Response</string>
+    <string name="retry">Retry</string>
+    <string name="local_message">Local Message:</string>
+    <string name="_2_sufficient_internet_bandwidth">2. Sufficient internet bandwidth.</string>
+    <string name="please_check">Please check:</string>
+    <string name="oops">Oops!!</string>
+    <string name="_1_you_are_connected_to_internet">1. You are connected to internet.</string>
+    <string name="error_message">message block can not be blank.</string>
+    <string name="engage_joinus">Join us to stay updated about all actions, events and activities happening at Operation Clean Money</string>
+    <string name="view_attachment">Click here to view</string>
+
+    <string name="title_please_state">Please Select Your State</string>
+    <string name="title_please_area">Please enter your area code</string>
+    <string name="title_please_contribution">Please a type of contribution</string>
+
+    <string name="title_details">have Already to Contributed\nto Operation clean Money</string>
+    <string name="facebook_app_id">729439290567709</string>
+
+</resources>
+

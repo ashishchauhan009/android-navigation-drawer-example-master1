@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fitsSystemWindows="true"
+    tools:context="net.simplifiedcoding.navigationdrawerexample.activities.MainActivity">
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/green"
+        app:popupTheme="@style/AppTheme.PopupOverlay">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+
+            <LinearLayout
+                android:id="@+id/ll_logo"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_toRightOf="@+id/btn_drawer">
+
+                <!--<ImageView
+                    android:id="@+id/logo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/clean_money_headerlogo" />-->
+
+                <ImageView
+                    android:id="@+id/logoitd"
+                    android:layout_width="60dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/itdlogonew" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@+id/ll_logo"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_actionbar_title"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="bottom"
+                    android:singleLine="true"
+                    android:text=""
+                    android:textColor="@color/white" />
+
+
+            </LinearLayout>
+        </RelativeLayout>
+
+        <!--<RelativeLayout
+            android:id="@+id/rl_itdlogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:gravity="end">
+            <ImageView
+                android:id="@+id/btn_itduser"
+                android:layout_width="17dp"
+                android:layout_height="17dp"
+                android:layout_marginTop="2.5dp"
+                android:src="@mipmap/icon_itduser" />
+            <TextView
+                android:layout_toRightOf="@+id/btn_itduser"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="3dp"
+                android:textSize="12dp"
+                android:layout_height="wrap_content"
+                android:text="Login-ITD"/>
+        </RelativeLayout>-->
+    </android.support.v7.widget.Toolbar>
+
+
+</RelativeLayout>

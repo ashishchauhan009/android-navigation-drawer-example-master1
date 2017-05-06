@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white_shade"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/id_tool"
+        layout="@layout/app_bar_title_rawer_button" />
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/task_name_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:drawablePadding="3dp"
+                android:gravity="center_vertical"
+                android:padding="5dp"
+                android:text="@string/details"
+                android:textColor="@color/black"
+                android:textSize="@dimen/medium_text_size"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <LinearLayout
+                    android:id="@+id/ll_login_otp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/orginal_white"
+                        android:elevation="5dp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:padding="5dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:drawableLeft="@mipmap/icon_taskno"
+                                android:drawablePadding="3dp"
+                                android:text="@string/task_no"
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/activity_vertical_margin"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/tv_count"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:ems="3"
+                                android:text=""
+                                android:textColor="@color/black" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="5dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:drawableLeft="@mipmap/icon_assignedon"
+                                android:drawablePadding="3dp"
+                                android:text="@string/assigned_on"
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/activity_vertical_margin"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/tv_assigned_date"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/black" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:padding="5dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:drawableLeft="@mipmap/icon_assignedby"
+                                android:drawablePadding="3dp"
+                                android:text="@string/assigned_by"
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/activity_vertical_margin"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/tv_assigned_name"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="1dp"
+                                android:text=""
+                                android:textColor="@color/black" />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:padding="5dp">
+
+                            <TextView
+                                android:id="@+id/assigned_by_tv"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:drawableLeft="@mipmap/icon_assignedon"
+                                android:drawablePadding="3dp"
+                                android:text="@string/task_completion_date"
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/activity_vertical_margin"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/tv_comp_task"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=""
+                                android:textColor="@color/black" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:padding="5dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:drawableLeft="@mipmap/icon_assignedon"
+                                android:drawablePadding="3dp"
+                                android:text="@string/task_completed_on"
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/activity_vertical_margin"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/task_compon_tv"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=""
+                                android:textColor="@color/black" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:padding="5dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:drawableLeft="@mipmap/icon_status"
+                                android:drawablePadding="3dp"
+                                android:text="@string/status"
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/activity_vertical_margin"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/task_status"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=""
+                                android:textColor="@color/black" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/status_ll"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:padding="5dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:drawableLeft="@mipmap/icon_subject"
+                                android:drawablePadding="3dp"
+                                android:text="@string/subject"
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/activity_vertical_margin"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/tv_subject"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=""
+                                android:textColor="@color/black" />
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:padding="5dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:drawableLeft="@mipmap/icon_subject"
+                                android:drawablePadding="3dp"
+                                android:text="@string/message"
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/activity_vertical_margin"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/tv_message_upper"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=""
+                                android:textColor="@color/black" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:padding="5dp">
+
+                            <TextView
+                                android:id="@+id/attachment_tv"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:layout_centerVertical="true"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginLeft="5dp"
+                                android:layout_weight="1.8"
+                                android:textColor="@color/sky_blue" />
+
+                            <TextView
+                                android:id="@+id/tv_viewattachment"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:layout_centerVertical="true"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginLeft="5dp"
+                                android:drawablePadding="3dp"
+                                android:drawableLeft="@drawable/attachment_view"
+                                android:layout_weight="1.8"
+                                android:layout_marginTop="2dp"
+                                android:layout_marginBottom="2dp"
+                                android:visibility="gone"
+                                android:text="@string/view_attachment"
+                                android:textColor="@color/sky_blue" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <!--bottom part-->
+                <TextView
+                    android:id="@+id/message_chain_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:drawablePadding="3dp"
+                    android:gravity="center_vertical"
+                    android:padding="5dp"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/medium_text_size"
+                    android:textStyle="bold" />
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/recycler_detail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:nestedScrollingEnabled="true"></android.support.v7.widget.RecyclerView>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="3dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:id="@+id/ll_currentresponse"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/orginal_white"
+                        android:elevation="5dp"
+                        android:orientation="vertical"
+                        android:padding="10dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:orientation="horizontal"
+                            android:weightSum="2">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1.5"
+                                android:drawableLeft="@mipmap/icon_subject"
+                                android:text=" Status :"
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/activity_vertical_margin" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="40dp"
+                                android:layout_weight=".6"
+                                android:background="@drawable/cleanmoney_round_corner_button">
+
+                                <Spinner
+                                    android:id="@+id/spn_status"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent" />
+                            </LinearLayout>
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/linear_reasign"
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:layout_marginTop="10dp">
+
+                        <EditText
+                            android:id="@+id/et_reassign"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@color/orginal_white"
+                            android:gravity="left|top"
+                            android:hint="Message Reassign*"
+                            android:inputType="textMultiLine"
+                            android:padding="5dp"
+                            android:scrollbars="vertical"
+                            android:textSize="13sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left">
+
+                        <android.support.v7.widget.AppCompatButton
+                            android:id="@+id/btn_submit"
+                            style="?android:attr/buttonStyleSmall"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_marginBottom="3dp"
+                            android:layout_marginTop="10dp"
+                            android:background="@drawable/button_selector_blue_whiteshade"
+                            android:clickable="true"
+                            android:text="SUBMIT"
+                            android:textColor="@color/white" />
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+
+</LinearLayout>
+
+

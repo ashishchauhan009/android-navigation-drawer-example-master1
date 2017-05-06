@@ -1,0 +1,588 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white_shade"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/id_tool"
+        layout="@layout/app_bar_title_rawer_button" />
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/task_name_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:drawablePadding="3dp"
+                android:gravity="center_vertical"
+                android:padding="5dp"
+                android:text=""
+                android:textColor="@color/black"
+                android:textSize="@dimen/medium_text_size"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <LinearLayout
+                    android:id="@+id/ll_login_otp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/orginal_white"
+                        android:elevation="5dp"
+                        android:orientation="vertical"
+                        android:paddingBottom="10dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:padding="5dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:drawableLeft="@mipmap/icon_taskno"
+                                android:drawablePadding="3dp"
+                                android:text="@string/task_no"
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/activity_vertical_margin"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/tv_count"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:ems="3"
+                                android:text=""
+                                android:textColor="@color/black" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="5dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:drawableLeft="@mipmap/icon_assignedon"
+                                android:drawablePadding="3dp"
+                                android:text="@string/assigned_on"
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/activity_vertical_margin"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/tv_assigned_date"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/black" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:padding="5dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:drawableLeft="@mipmap/icon_assignedby"
+                                android:drawablePadding="3dp"
+                                android:text="@string/assigned_by"
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/activity_vertical_margin"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/tv_assigned_name"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="1dp"
+                                android:text=""
+                                android:textColor="@color/black" />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:padding="5dp">
+
+                            <TextView
+                                android:id="@+id/assigned_by_tv"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:drawableLeft="@mipmap/icon_assignedon"
+                                android:drawablePadding="3dp"
+                                android:text="@string/task_completion_date"
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/activity_vertical_margin"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/tv_comp_task"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=""
+                                android:textColor="@color/black" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/ll_taskCompOn"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:padding="5dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:drawableLeft="@mipmap/icon_assignedon"
+                                android:drawablePadding="3dp"
+                                android:text="@string/task_completed_on"
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/activity_vertical_margin"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/task_compon_tv"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=""
+                                android:textColor="@color/black" />
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:padding="5dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:drawableLeft="@mipmap/icon_status"
+                                android:drawablePadding="3dp"
+                                android:text="@string/status"
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/activity_vertical_margin"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/task_status"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=""
+                                android:textColor="@color/black" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/status_ll"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:padding="5dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:drawableLeft="@mipmap/icon_subject"
+                                android:drawablePadding="3dp"
+                                android:text="@string/subject"
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/activity_vertical_margin"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/tv_subject"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=""
+                                android:textColor="@color/black" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:padding="5dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:drawableLeft="@mipmap/icon_subject"
+                                android:drawablePadding="3dp"
+                                android:text="@string/message"
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/activity_vertical_margin"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/tv_message_upper"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=""
+                                android:textColor="@color/black" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:padding="5dp">
+
+                            <TextView
+                                android:id="@+id/attachment_tv"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:layout_centerVertical="true"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginLeft="5dp"
+                                android:layout_weight="1.8"
+                                android:textColor="@color/sky_blue" />
+
+                            <TextView
+                                android:id="@+id/tv_viewattachment"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:layout_centerVertical="true"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginLeft="5dp"
+                                android:drawablePadding="3dp"
+                                android:drawableLeft="@drawable/attachment_view"
+                                android:layout_weight="1.8"
+                                android:visibility="gone"
+                                android:layout_marginTop="2dp"
+                                android:layout_marginBottom="2dp"
+                                android:text="@string/view_attachment"
+                                android:textColor="@color/sky_blue" />
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                    <!--bottom part-->
+
+                    <!--  <LinearLayout
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:layout_marginTop="5dp"
+                          android:orientation="vertical">
+
+                          <LinearLayout
+                              android:id="@+id/ll_previousresponse"
+                              android:layout_width="match_parent"
+                              android:layout_height="match_parent"
+                              android:background="@color/orginal_white"
+                              android:elevation="5dp"
+                              android:orientation="vertical"
+                              android:paddingBottom="10dp">
+
+                              <LinearLayout
+                                  android:layout_width="match_parent"
+                                  android:layout_height="wrap_content"
+                                  android:orientation="horizontal"
+                                  android:padding="5dp">
+
+                                  <TextView
+                                      android:layout_width="wrap_content"
+                                      android:layout_height="wrap_content"
+                                      android:drawableLeft="@mipmap/icon_taskno"
+                                      android:drawablePadding="3dp"
+                                      android:text="@string/respondedby"
+                                      android:textColor="@color/black"
+                                      android:textSize="@dimen/activity_vertical_margin"
+                                      android:textStyle="bold" />
+
+                                  <TextView
+                                      android:id="@+id/task_respondby"
+                                      android:layout_width="wrap_content"
+                                      android:layout_height="wrap_content"
+                                      android:text=""
+                                      android:textColor="@color/black" />
+
+                              </LinearLayout>
+
+                              <LinearLayout
+                                  android:layout_width="match_parent"
+                                  android:layout_height="wrap_content"
+                                  android:padding="5dp">
+
+                                  <TextView
+                                      android:layout_width="match_parent"
+                                      android:layout_height="wrap_content"
+                                      android:text="@string/previous_response"
+                                      android:textSize="18dp" />
+
+                              </LinearLayout>
+
+                              <LinearLayout
+                                  android:layout_width="match_parent"
+                                  android:layout_height="wrap_content"
+                                  android:orientation="horizontal"
+                                  android:padding="5dp">
+
+                                  <TextView
+                                      android:layout_width="wrap_content"
+                                      android:layout_height="wrap_content"
+                                      android:drawableLeft="@mipmap/icon_assignedon"
+                                      android:drawablePadding="3dp"
+                                      android:text="@string/respondedon"
+                                      android:textColor="@color/black"
+                                      android:textSize="@dimen/activity_vertical_margin"
+                                      android:textStyle="bold" />
+
+                                  <TextView
+                                      android:id="@+id/task_prevrespondon"
+                                      android:layout_width="wrap_content"
+                                      android:layout_height="wrap_content"
+                                      android:layout_marginRight="1dp"
+                                      android:text=""
+                                      android:textColor="@color/black" />
+
+
+                              </LinearLayout>
+
+                              &lt;!&ndash;<LinearLayout
+                                  android:layout_width="match_parent"
+                                  android:layout_height="wrap_content"
+                                  android:orientation="horizontal"
+                                  android:padding="5dp">
+
+                                  <TextView
+                                      android:id="@+id/prevstatus"
+                                      android:layout_width="wrap_content"
+                                      android:layout_height="wrap_content"
+                                      android:drawableLeft="@mipmap/icon_assignedon"
+                                      android:drawablePadding="3dp"
+                                      android:text="@string/status"
+                                      android:textColor="@color/black"
+                                      android:textSize="@dimen/activity_vertical_margin"
+                                      android:textStyle="bold" />
+
+                                  <TextView
+                                      android:id="@+id/task_prevstatus"
+                                      android:layout_width="wrap_content"
+                                      android:layout_height="wrap_content"
+                                      android:text=""
+                                      android:textColor="@color/black" />
+                              </LinearLayout>&ndash;&gt;
+
+
+                              <LinearLayout
+                                  android:layout_width="match_parent"
+                                  android:layout_height="wrap_content"
+                                  android:orientation="horizontal"
+                                  android:padding="5dp">
+
+                                  <TextView
+                                      android:layout_width="wrap_content"
+                                      android:layout_height="wrap_content"
+                                      android:drawableLeft="@mipmap/icon_subject"
+                                      android:drawablePadding="3dp"
+                                      android:text="@string/message"
+                                      android:textColor="@color/black"
+                                      android:textSize="@dimen/activity_vertical_margin"
+                                      android:textStyle="bold" />
+
+                                  <TextView
+                                      android:id="@+id/tv_prevmessage"
+                                      android:layout_width="wrap_content"
+                                      android:layout_height="wrap_content"
+                                      android:text=""
+                                      android:textColor="@color/black" />
+                              </LinearLayout>
+
+                              <LinearLayout
+                                  android:layout_width="match_parent"
+                                  android:layout_height="wrap_content"
+                                  android:orientation="horizontal"
+                                  android:padding="5dp">
+
+                                  <TextView
+                                      android:id="@+id/prevattachment_tv"
+                                      android:layout_width="0dp"
+                                      android:layout_height="wrap_content"
+                                      android:layout_alignParentLeft="true"
+                                      android:layout_centerVertical="true"
+                                      android:layout_gravity="center_vertical"
+                                      android:layout_marginLeft="5dp"
+                                      android:layout_weight="1.8"
+                                      android:textColor="@color/sky_blue" />
+                              </LinearLayout>
+
+                          </LinearLayout>
+
+                          <LinearLayout
+                              android:id="@+id/ll_currentresponse"
+                              android:layout_width="match_parent"
+                              android:layout_height="wrap_content"
+                              android:background="@color/orginal_white"
+                              android:elevation="5dp"
+                              android:orientation="vertical"
+                              android:paddingBottom="10dp">
+
+                              <LinearLayout
+                                  android:layout_width="match_parent"
+                                  android:layout_height="wrap_content"
+                                  android:padding="5dp">
+
+                                  <TextView
+                                      android:layout_width="match_parent"
+                                      android:layout_height="wrap_content"
+                                      android:text="@string/current_response"
+                                      android:textSize="18dp" />
+
+                              </LinearLayout>
+
+                              <LinearLayout
+                                  android:layout_width="match_parent"
+                                  android:layout_height="wrap_content"
+                                  android:orientation="horizontal"
+                                  android:padding="5dp">
+
+                                  <TextView
+                                      android:layout_width="wrap_content"
+                                      android:layout_height="wrap_content"
+                                      android:drawableLeft="@mipmap/icon_assignedon"
+                                      android:drawablePadding="3dp"
+                                      android:text="@string/respondedon"
+                                      android:textColor="@color/black"
+                                      android:textSize="@dimen/activity_vertical_margin"
+                                      android:textStyle="bold" />
+
+                                  <TextView
+                                      android:id="@+id/task_respondedon"
+                                      android:layout_width="wrap_content"
+                                      android:layout_height="wrap_content"
+                                      android:layout_marginRight="1dp"
+                                      android:text=""
+                                      android:textColor="@color/black" />
+
+
+                              </LinearLayout>
+
+                              &lt;!&ndash; <LinearLayout
+                                   android:layout_width="match_parent"
+                                   android:layout_height="wrap_content"
+                                   android:orientation="horizontal"
+                                   android:padding="5dp">
+
+                                   <TextView
+                                       android:id="@+id/status"
+                                       android:layout_width="wrap_content"
+                                       android:layout_height="wrap_content"
+                                       android:drawableLeft="@mipmap/icon_assignedon"
+                                       android:drawablePadding="3dp"
+                                       android:text="@string/status"
+                                       android:textColor="@color/black"
+                                       android:textSize="@dimen/activity_vertical_margin"
+                                       android:textStyle="bold" />
+
+                                   <TextView
+                                       android:id="@+id/task_status"
+                                       android:layout_width="wrap_content"
+                                       android:layout_height="wrap_content"
+                                       android:text=""
+                                       android:textColor="@color/black" />
+                               </LinearLayout>&ndash;&gt;
+
+
+                              <LinearLayout
+                                  android:layout_width="match_parent"
+                                  android:layout_height="wrap_content"
+                                  android:orientation="horizontal"
+                                  android:padding="5dp">
+
+                                  <TextView
+                                      android:layout_width="wrap_content"
+                                      android:layout_height="wrap_content"
+                                      android:drawableLeft="@mipmap/icon_subject"
+                                      android:drawablePadding="3dp"
+                                      android:text="@string/message"
+                                      android:textColor="@color/black"
+                                      android:textSize="@dimen/activity_vertical_margin"
+                                      android:textStyle="bold" />
+
+                                  <TextView
+                                      android:id="@+id/tv_message_bottom"
+                                      android:layout_width="wrap_content"
+                                      android:layout_height="wrap_content"
+                                      android:text=""
+                                      android:textColor="@color/black" />
+                              </LinearLayout>
+
+                              <LinearLayout
+                                  android:layout_width="match_parent"
+                                  android:layout_height="wrap_content"
+                                  android:orientation="horizontal"
+                                  android:padding="5dp">
+
+                                  <TextView
+                                      android:id="@+id/attachment_tv_bottom"
+                                      android:layout_width="0dp"
+                                      android:layout_height="wrap_content"
+                                      android:layout_alignParentLeft="true"
+                                      android:layout_centerVertical="true"
+                                      android:layout_gravity="center_vertical"
+                                      android:layout_marginLeft="5dp"
+                                      android:layout_weight="1.8"
+                                      android:textColor="@color/sky_blue" />
+                              </LinearLayout>
+                          </LinearLayout>
+                      </LinearLayout>-->
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/message_chain_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:drawablePadding="3dp"
+                android:gravity="center_vertical"
+                android:padding="5dp"
+                android:text=""
+                android:textColor="@color/black"
+                android:textSize="@dimen/medium_text_size"
+                android:textStyle="bold" />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recycler_detail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="3dp"></android.support.v7.widget.RecyclerView>
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+
+</LinearLayout>

@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/root_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <include layout="@layout/app_bar_titlelogin" />
+
+    <TextView
+        android:id="@+id/task_name_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:drawablePadding="3dp"
+        android:gravity="center_vertical"
+        android:padding="5dp"
+        android:text="@string/drawer_login"
+        android:textColor="@color/black"
+        android:textSize="@dimen/medium_text_size"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="35dp"
+        android:paddingRight="35dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:src="@mipmap/clean_money_app_logo"
+
+            android:visibility="gone" />
+
+        <android.support.v4.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp">
+
+                    <android.support.v7.widget.AppCompatEditText
+                        android:id="@+id/et_sign_in_user_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:background="@drawable/cleanmoney_round_corner_button"
+                        android:ems="10"
+                        android:hint="Enter ITD Designation Based Email Id"
+                        android:inputType="textEmailAddress"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="@color/black" />
+
+                </LinearLayout>
+
+                <android.support.v7.widget.AppCompatEditText
+                    android:id="@+id/et_password"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/cleanmoney_round_corner_button"
+                    android:ems="10"
+                    android:hint="Enter Your Password"
+                    android:inputType="textPassword"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/black" />
+
+                <!-- <TextView
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_gravity="end"
+                     android:layout_marginTop="4dp"
+                     android:text="Forget your password?"
+                     android:textColor="@color/sky_blue"
+                     android:textSize="10dp" />-->
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left">
+
+                    <android.support.v7.widget.AppCompatButton
+                        android:id="@+id/btn_login"
+                        style="?android:attr/buttonStyleSmall"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginBottom="3dp"
+                        android:layout_marginTop="15dp"
+                        android:background="@drawable/button_selector_blue_whiteshade"
+                        android:clickable="true"
+                        android:text="Login With Password"
+                        android:textColor="@color/white" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left">
+
+                    <android.support.v7.widget.AppCompatButton
+                        android:id="@+id/btn_donthavepass"
+                        style="?android:attr/buttonStyleSmall"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginBottom="3dp"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/button_selector_blue_whiteshade"
+                        android:clickable="true"
+                        android:text="@string/new_user"
+                        android:textColor="@color/white" />
+                </LinearLayout>
+
+                <!--  <LinearLayout
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_marginTop="15dp"
+                      android:gravity="center_vertical">
+
+                      <View
+                          android:layout_width="0dp"
+                          android:layout_height="1dp"
+                          android:layout_gravity="center_vertical"
+                          android:layout_weight="1"
+                          android:background="@color/black">
+
+                      </View>
+
+                      <ImageView
+                          android:id="@+id/textView7"
+                          android:layout_width="40dp"
+                          android:layout_height="40dp"
+                          android:layout_gravity="center_vertical"
+                          android:background="@drawable/orimage"
+                          android:textColor="@color/white" />
+
+                      <View
+                          android:layout_width="0dp"
+                          android:layout_height="1dp"
+                          android:layout_weight="1"
+                          android:background="@color/black"></View>
+
+                  </LinearLayout>
+      -->
+
+                <LinearLayout
+                    android:id="@+id/ll_login_otp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="10dp"
+                        android:orientation="vertical">
+
+                        <android.support.v7.widget.AppCompatEditText
+                            android:id="@+id/et_enter_otp"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_marginTop="5dp"
+                            android:background="@drawable/cleanmoney_round_corner_button"
+                            android:ems="1"
+                            android:hint="Enter OTP"
+                            android:inputType="number"
+                            android:paddingLeft="10dp"
+                            android:paddingRight="10dp"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textColor="@color/black" />
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/otp_send_validation"
+                        android:textColor="@color/black"
+                        android:textSize="10dp" />
+
+                    <TextView
+                        android:id="@+id/tv_resend_otp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:gravity="end"
+                        android:text="@string/resend_otp"
+                        android:textColor="@color/dark_blue"
+                        android:textSize="10dp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left">
+
+                        <android.support.v7.widget.AppCompatButton
+                            android:id="@+id/btn_login_otp"
+                            style="?android:attr/buttonStyleSmall"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_marginBottom="3dp"
+                            android:layout_marginTop="10dp"
+                            android:background="@drawable/button_selector_blue_whiteshade"
+                            android:clickable="true"
+                            android:text="LOGIN WITH OTP"
+                            android:textColor="@color/white" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </android.support.v4.widget.NestedScrollView>
+    </LinearLayout>
+
+</LinearLayout>

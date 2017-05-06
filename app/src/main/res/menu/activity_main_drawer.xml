@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group
+        android:id="@+id/menu_top"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/menu_home"
+            android:icon="@drawable/home"
+            android:title="@string/drawer_header" />
+    </group>
+    <!--<group-->
+    <!--android:id="@+id/menu_bottom4"-->
+    <!--android:checkableBehavior="none">-->
+
+    <!--<item-->
+    <!--android:id="@+id/menu_loginitduser"-->
+    <!--android:icon="@mipmap/icon_itduser"-->
+    <!--android:title="@string/drawer_loginitduser">-->
+
+    <!--</item>-->
+
+    <!--</group>-->
+    <group
+        android:id="@+id/menu_dashboard_grp"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/menu_dashboard"
+            android:icon="@mipmap/icon_dashboard"
+            android:title="Dashboard" />
+    </group>
+    <group
+        android:id="@+id/menu_misgrp"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/menu_mis"
+            android:icon="@mipmap/drawer_mis"
+            android:title="@string/drawer_mis" />
+    </group>
+
+    <group
+        android:id="@+id/menu_createtskgrp"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/menu_createtask"
+            android:icon="@mipmap/search_by_name_drawer"
+            android:title="@string/drawer_search_byname" />
+    </group>
+    <group
+        android:id="@+id/menu_sdesignation"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/menu_designation"
+            android:icon="@mipmap/search_designation_drawer"
+            android:title="@string/drawer_designation" />
+    </group>
+    <group
+        android:id="@+id/menu_favtskgrp"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/menu_favtask"
+            android:icon="@mipmap/drawer_favorite"
+            android:title="@string/drawer_favtask" />
+    </group>
+    <group
+        android:id="@+id/menu_deskboardgrp"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/menu_deskboard"
+            android:icon="@mipmap/drawer_taskdesh_board"
+            android:title="@string/task_deskboard" />
+    </group>
+
+    <group
+        android:id="@+id/kgk"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/menu_add_stories"
+            android:icon="@mipmap/success_drawer"
+            android:title="@string/drawer_success_stories" />
+    </group>
+    <group
+        android:id="@+id/kb"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/menu_add_outreach"
+            android:icon="@mipmap/outreach_drawer"
+            android:title="@string/drawer_outreach_activities" />
+    </group>
+
+    <group
+        android:id="@+id/menu_bottom3"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/menu_helpdesk"
+            android:icon="@mipmap/icon_helpdesk"
+            android:title="@string/drawer_helpdesk">
+
+        </item>
+    </group>
+
+
+   <!-- <group
+        android:id="@+id/menu_cleanmoney"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/menu_cleanmoneyitem"
+            android:icon="@mipmap/search_designation_drawer"
+            android:title="@string/drawer_cleanmoneyparticipants">
+
+            <menu>
+                <item
+                    android:id="@+id/menu_engage"
+                    android:icon="@mipmap/icon_newtaskmenu"
+                    android:title="@string/subdrawer_engage" />
+                <item
+                    android:id="@+id/menu_support"
+                    android:icon="@mipmap/waiting_icon"
+                    android:title="@string/subdrawer_isupport" />
+                <item
+                    android:id="@+id/menu_contribute"
+                    android:icon="@mipmap/icon_completetask"
+                    android:title="@string/subdrawer_contribute" />
+
+            </menu>
+        </item>
+
+
+    </group>-->
+
+    <!-- <group
+         android:id="@+id/menu_top1"
+         android:checkableBehavior="none">
+         <item
+             android:id="@+id/menu_mytask"
+             android:title="@string/drawer_mytask">
+             <menu>
+                 <item
+                     android:id="@+id/menu_newtask"
+                     android:icon="@mipmap/icon_newtaskmenu"
+                     android:title="@string/drawer_newtask" />
+                 <item
+                     android:id="@+id/menu_pendingtask"
+                     android:icon="@mipmap/waiting_icon"
+                     android:title="@string/drawer_pendingtask" />
+                 <item
+                     android:id="@+id/menu_completedtask"
+                     android:icon="@mipmap/icon_completetask"
+                     android:title="@string/drawer_comptask" />
+                 <item
+                     android:id="@+id/menu_closedtask"
+                     android:icon="@mipmap/icon_closed"
+                     android:title="@string/drawer_closedtask" />
+             </menu>
+         </item>
+         <item
+             android:id="@+id/menu_myassignedtask"
+             android:title="@string/drawer_myassigtask">
+             <menu>
+                 <item
+                     android:id="@+id/menu_assig_newtask"
+                     android:icon="@mipmap/icon_newtaskmenu"
+                     android:title="@string/drawer_newtask" />
+                 <item
+                     android:id="@+id/menu_wip"
+                     android:icon="@mipmap/waiting_icon"
+                     android:title="@string/drawer_pendingtask"/>
+                 <item
+                     android:id="@+id/menu_readyforupdate"
+                     android:icon="@mipmap/icon_readyupdate"
+                     android:title="@string/drawer_readyforupdate"/>
+                 <item
+                     android:id="@+id/menu_closed"
+                     android:icon="@mipmap/icon_closed"
+                     android:title="@string/drawer_closed"/>
+             </menu>
+         </item>
+         <item
+             android:id="@+id/menu_success_stories"
+             android:title="@string/drawer_success_stories">
+             <menu>
+                 <item
+                     android:id="@+id/menu_add_stories"
+                     android:icon="@mipmap/icon_vision"
+                     android:title="@string/drawer_add_stories" />
+                 <item
+                     android:id="@+id/menu_edit_stories"
+                     android:icon="@mipmap/icon_mail"
+                     android:title="@string/drawer_edit_stories" />
+             </menu>
+         </item>
+         <item
+             android:id="@+id/menu_outreach_stories"
+             android:title="@string/drawer_outreach_stories">
+             <menu>
+                 <item
+                     android:id="@+id/menu_add_outreach"
+                     android:icon="@mipmap/icon_vision"
+                     android:title="@string/drawer_add_outreach" />
+                 <item
+                     android:id="@+id/menu_edit_outreach"
+                     android:icon="@mipmap/icon_mail"
+                     android:title="@string/drawer_edit_outreach" />
+             </menu>
+         </item>
+         <item
+             android:id="@+id/menu_participants"
+             android:title="@string/drawer_participants">
+             <menu>
+                 <item
+                     android:id="@+id/menu_engage"
+                     android:icon="@mipmap/icon_vision"
+                     android:title="@string/drawer_engage" />
+                 <item
+                     android:id="@+id/menu_isupport"
+                     android:icon="@mipmap/icon_mail"
+                     android:title="@string/drawer_isupport" />
+             </menu>
+         </item>
+     </group>-->
+    <group
+        android:id="@+id/menu_logoutgrp"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/menu_logout"
+            android:icon="@mipmap/ic_launcher_logout"
+            android:title="@string/drawer_logout" />
+    </group>
+
+    <!-- <group
+         android:id="@+id/menu_top1"
+         android:checkableBehavior="none">
+        <item
+             android:id="@+id/menu_operation_clean"
+             android:title="@string/drawer_operationcleanmoney">
+             <menu>
+                 <item
+                     android:id="@+id/menu_vision"
+                     android:icon="@mipmap/icon_vision"
+                     android:title="Vision &amp; Strategy" />
+                 <item
+                     android:id="@+id/menu_messages"
+                     android:icon="@mipmap/icon_mail"
+                     android:title="Messages" />
+                 <item
+                     android:id="@+id/menu_dashboard"
+                     android:icon="@mipmap/icon_dashboard"
+                     android:title="Dashboard" />
+             </menu>
+         </item>
+         <item
+             android:id="@+id/menu_pmgky"
+             android:title="@string/drawer_pmgky">
+             <menu>
+                 <item
+                     android:id="@+id/menu_about_pmgky"
+                     android:icon="@mipmap/icon_pmgky"
+                     android:title="About" />
+                 <item
+                     android:id="@+id/menu_howAvail"
+                     android:icon="@mipmap/icon_howavail"
+                     android:title="How to Avail" />
+                 <item
+                     android:id="@+id/menu_faqpmgky"
+                     android:icon="@mipmap/icon_faq"
+                     android:title="FAQs" />
+             </menu>
+         </item>
+         <item
+             android:id="@+id/menu_evarification"
+             android:title="@string/drawer_evarification">
+             <menu>
+                 <item
+                     android:id="@+id/menu_eVerabout"
+                     android:icon="@mipmap/icon_verification"
+                     android:title="About" />
+                 <item
+                     android:id="@+id/menu_howEver"
+                     android:icon="@mipmap/icon_howeverify"
+                     android:title="How to E-Verify" />
+                 <item
+                     android:id="@+id/menu_eVerfaq"
+                     android:icon="@mipmap/icon_faq"
+                     android:title="Check Your Status" />
+             </menu>
+         </item>
+         <item
+             android:id="@+id/menu_activities"
+             android:title="@string/drawer_activities">
+             <menu>
+                 <item
+                     android:id="@+id/menu_actjourney"
+                     android:icon="@mipmap/journey"
+                     android:title="Journey So Far" />
+                 <item
+                     android:id="@+id/menu_actCampaign"
+                     android:icon="@mipmap/icon_campaigns"
+                     android:title="Campaigns" />
+                 <item
+                     android:id="@+id/menu_actoutreach"
+                     android:icon="@mipmap/icon_actoutreach"
+                     android:title="Outreach Activities" />
+                 <item
+                     android:id="@+id/menu_actsucessstory"
+                     android:icon="@mipmap/icon_successstories"
+                     android:title="Success Story" />
+
+             </menu>
+         </item>
+         <item
+             android:id="@+id/menu_participants"
+             android:title="@string/drawer_participants">
+             <menu>
+                 <item
+                     android:id="@+id/menu_partEngage"
+                     android:icon="@mipmap/icon_engage"
+                     android:title="Engage" />
+                 <item
+                     android:id="@+id/menu_partSupport"
+                     android:icon="@drawable/quickfacts"
+                     android:title="I Support" />
+                 <item
+                     android:id="@+id/menu_partContribute"
+                     android:icon="@mipmap/icon_contribute"
+                     android:title="Contribute" />
+             </menu>
+         </item>
+         <item
+             android:id="@+id/menu_resources"
+             android:title="@string/drawer_resources">
+             <menu>
+
+                 <item
+                     android:id="@+id/menu_resUserManual"
+                     android:icon="@mipmap/icon_usermanual"
+                     android:title="User Manual" />
+                 <item
+                     android:id="@+id/menu_restrainMeterial"
+                     android:icon="@mipmap/icon_training"
+                     android:title="Training Material" />
+                 <item
+                     android:id="@+id/menu_resdownloads"
+                     android:icon="@mipmap/icon_downloads"
+                     android:title="Downloads" />
+
+                 <item
+                     android:id="@+id/menu_resImpLinks"
+                     android:icon="@mipmap/icon_important_links"
+                     android:title="Important Links" />
+                 <item
+                     android:id="@+id/menu_resfaq"
+                     android:icon="@mipmap/icon_faq"
+                     android:title="FAQs" />
+             </menu>
+
+         </item>
+     </group>
+     <group
+         android:id="@+id/menu_bottom1"
+         android:checkableBehavior="none">
+         <item
+             android:id="@+id/menu_social_media_centre"
+             android:icon="@mipmap/icon_socialmedia"
+             android:title="@string/drawer_socialmediacorner">
+
+         </item>
+     </group>
+     <group
+         android:id="@+id/menu_bottom2"
+         android:checkableBehavior="none">
+         <item
+             android:id="@+id/menu_newsupdates"
+             android:icon="@mipmap/icon_news"
+             android:title="@string/drawer_newsupdates">
+
+         </item>
+     </group>
+     <group
+         android:id="@+id/menu_bottom3"
+         android:checkableBehavior="none">
+         <item
+             android:id="@+id/menu_helpdesk"
+             android:icon="@mipmap/icon_helpdesk"
+             android:title="@string/drawer_helpdesk">
+
+         </item>
+     </group>
+
+
+     <group
+         android:id="@+id/menu_bottom5"
+         android:checkableBehavior="none">
+         <item
+             android:id="@+id/menu_faqcontent"
+             android:icon="@mipmap/icon_faq"
+             android:title="@string/drawer_faqs">
+
+         </item>
+     </group>-->
+</menu>

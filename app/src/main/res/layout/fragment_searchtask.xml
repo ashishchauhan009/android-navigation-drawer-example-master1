@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_singn_in"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/app_bar_title_rawer_button" />
+
+    <TextView
+        android:id="@+id/task_name_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:background="@color/white"
+        android:drawablePadding="3dp"
+        android:gravity="center_vertical"
+        android:padding="5dp"
+        android:textColor="@color/black"
+        android:textSize="@dimen/medium_text_size"
+        android:textStyle="bold" />
+
+
+    <LinearLayout
+        android:id="@+id/ll_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left">
+
+            <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/et_search"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/cleanmoney_round_corner_button"
+                android:ems="10"
+                android:hint="@string/enteritdname"
+                android:inputType="textEmailAddress"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/black" />
+
+        </LinearLayout>
+
+        <!-- <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content">
+
+             <RadioGroup
+                 android:id="@+id/radioGroup"
+                 android:layout_width="fill_parent"
+                 android:layout_height="wrap_content"
+                 android:orientation="horizontal"
+                 android:paddingTop="10dp"
+                 android:weightSum="4">
+
+                 <android.support.v7.widget.AppCompatRadioButton
+                     android:id="@+id/name"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_weight="1"
+                     android:checked="false"
+                     android:text="Name"
+
+                     app:backgroundTint="@color/red"
+                     app:buttonTint="@color/dark_blue" />
+
+                 <android.support.v7.widget.AppCompatRadioButton
+                     android:id="@+id/email"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_weight="1"
+                     android:checked="false"
+                     android:text="Email"
+
+                     app:buttonTint="@color/dark_blue" />
+
+                 <android.support.v7.widget.AppCompatRadioButton
+                     android:id="@+id/designation"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_weight="1"
+                     android:checked="false"
+                     android:text="Designation"
+
+                     app:backgroundTint="@color/red"
+                     app:buttonTint="@color/dark_blue" />
+
+                 <android.support.v7.widget.AppCompatRadioButton
+                     android:id="@+id/level"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_weight="1"
+                     android:checked="false"
+                     android:text="Level"
+                     android:visibility="gone"
+                     app:buttonTint="@color/dark_blue" />
+
+
+             </RadioGroup>
+         </LinearLayout>-->
+
+        <!-- <Spinner
+             android:id="@+id/level_spinner"
+             android:layout_width="match_parent"
+             android:layout_height="25dp"
+             android:layout_gravity="start"
+             android:layout_marginTop="10dp"
+             android:dropDownVerticalOffset="30dp"
+             android:paddingLeft="5dp"
+             android:textAlignment="textStart" />
+
+         <View
+             android:id="@+id/view1"
+             android:layout_width="match_parent"
+             android:layout_height="1dp"
+             android:layout_marginLeft="10dp"
+             android:layout_marginRight="10dp"
+             android:background="@color/grey" />
+-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left">
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/btn_search"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="3dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/button_selector_blue_whiteshade"
+                android:clickable="true"
+                android:text="Search"
+                android:textColor="@color/white" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="30dp"
+         android:layout_marginTop="20dp"
+         android:paddingLeft="5dp"
+         android:paddingRight="5dp">
+
+         <LinearLayout
+             android:id="@+id/ll_list_header"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:background="@color/white_shade"
+             android:gravity="center"
+             android:orientation="horizontal"
+             android:weightSum="7">
+
+             <TextView
+                 android:id="@+id/tv_person_details"
+                 android:layout_width="0dp"
+                 android:layout_height="wrap_content"
+                 android:layout_weight="3.5"
+                 android:gravity="center"
+                 android:text="" />
+
+             &lt;!&ndash;<TextView
+                 android:id="@+id/tv_post_description"
+                 android:layout_width="0dp"
+                 android:layout_height="wrap_content"
+                 android:layout_weight="2"
+                 android:gravity="center"
+                 android:text="Post Description"
+                 android:textSize="12dp" />
+             &ndash;&gt;
+            &lt;!&ndash;      <TextView
+                 android:id="@+id/tv_action"
+                 android:layout_width="0dp"
+                 android:layout_height="wrap_content"
+                 android:layout_weight="1"
+                 android:gravity="center"
+                 android:text="Action"
+                 android:textSize="12dp" />&ndash;&gt;
+         </LinearLayout>
+     </LinearLayout>-->
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tv_NORecord"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="@string/no_desiganationtask"
+            android:textColor="@color/black"
+            android:textSize="@dimen/medium_text_size"
+            android:visibility="gone"></TextView>
+
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler_userlist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp">
+
+        </android.support.v7.widget.RecyclerView>
+    </RelativeLayout>
+
+</LinearLayout>
